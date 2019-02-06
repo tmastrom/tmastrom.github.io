@@ -43,13 +43,13 @@
   </url>
   
   <url>
-    <loc>https://tommastromona.co/tags/development/</loc>
+    <loc>https://tommastromona.co/categories/development/</loc>
     <lastmod>2019-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tommastromona.co/categories/development/</loc>
+    <loc>https://tommastromona.co/tags/development/</loc>
     <lastmod>2019-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -61,14 +61,20 @@
   </url>
   
   <url>
+    <loc>https://tommastromona.co/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://tommastromona.co/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tommastromona.co/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://tommastromona.co/</loc>
+    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -102,12 +108,6 @@
   
   <url>
     <loc>https://tommastromona.co/tags/themes/</loc>
-    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tommastromona.co/</loc>
     <lastmod>2019-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
