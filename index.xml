@@ -6,10 +6,29 @@
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tommastromona.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Battlesnake 2019</title>
+      <link>https://tommastromona.co/projects/battlesnake-2019/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/battlesnake-2019/</guid>
+      <description>Battlesnake 2019 A simple snake AI written in Python link</description>
+    </item>
+    
+    <item>
+      <title>Traffic Light</title>
+      <link>https://tommastromona.co/projects/traffic-light/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/traffic-light/</guid>
+      <description>Real-Time Traffic Light System A simulated traffic light system built using FreeRTOS and an STM32 Microcontroller for ECE 455: Real-Time Operating Systems course at UVic. Source Code
+Requirements Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller. The ADC will be connected to a potentiometer.</description>
+    </item>
     
     <item>
       <title>Hugo coder wiki</title>
@@ -21,12 +40,40 @@
     </item>
     
     <item>
+      <title>Projects</title>
+      <link>https://tommastromona.co/projects/projects/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/projects/</guid>
+      <description>Reqcheck.tech : A Web Application for Prerequisite Course Visualization Reqcheck.tech You can view the source code on Github</description>
+    </item>
+    
+    <item>
       <title>Dummy</title>
       <link>https://tommastromona.co/posts/dummy.pl/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://tommastromona.co/posts/dummy.pl/</guid>
       <description>w budowie&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Tetris Game</title>
+      <link>https://tommastromona.co/projects/tetris-game/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/tetris-game/</guid>
+      <description>Introduction The following report will describe the Software Development Lifecycle (SDLC) for 2-Player Tetris built for ECE 356: Engineering System Software. The five main steps in the SDLC are Requirement Engineering, Design, Implementation, Testing, and Maintenance.
+The purpose of creating this game was to become familiar with basic client/server architecture. The result is a 2-player game with network functionality using Python. The source code can be found here.The process of creating this game was both challenging and rewarding.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://tommastromona.co/projects/projects/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/projects/</guid>
+      <description>Golden Hour: Notifications for Upcoming Sunrise and Sunset Conditions Twitter Bot</description>
     </item>
     
     <item>
@@ -86,17 +133,6 @@ Follow the following steps:
       
       <guid>https://tommastromona.co/posts/migrate-from-jekyll/</guid>
       <description>Table of Contents  Move static content to static Create your Hugo configuration file Set your configuration publish folder to site Convert Jekyll templates to Hugo templates Convert Jekyll plugins to Hugo shortcodes  Implementation Usage  Finishing Touches  Fix Content Clean Up  A practical example in a diff  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output.</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://tommastromona.co/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tommastromona.co/projects/</guid>
-      <description>NW Hacks 2019 | Reqcheck.tech You can view the source code on Github
-November 2018 | 2-Player Tetris
-Hack UVic 2018 | Twitter Bot</description>
     </item>
     
     <item>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Home</title>
+    <link>https://tommastromona.co/projects/</link>
+    <description>Recent content in Projects on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tommastromona.co/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Battlesnake 2019</title>
+      <link>https://tommastromona.co/projects/battlesnake-2019/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/battlesnake-2019/</guid>
+      <description>Battlesnake 2019 A simple snake AI written in Python link</description>
+    </item>
+    
+    <item>
+      <title>Traffic Light</title>
+      <link>https://tommastromona.co/projects/traffic-light/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/traffic-light/</guid>
+      <description>Real-Time Traffic Light System A simulated traffic light system built using FreeRTOS and an STM32 Microcontroller for ECE 455: Real-Time Operating Systems course at UVic. Source Code
+Requirements Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller. The ADC will be connected to a potentiometer.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://tommastromona.co/projects/projects/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/projects/</guid>
+      <description>Reqcheck.tech : A Web Application for Prerequisite Course Visualization Reqcheck.tech You can view the source code on Github</description>
+    </item>
+    
+    <item>
+      <title>Tetris Game</title>
+      <link>https://tommastromona.co/projects/tetris-game/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/tetris-game/</guid>
+      <description>Introduction The following report will describe the Software Development Lifecycle (SDLC) for 2-Player Tetris built for ECE 356: Engineering System Software. The five main steps in the SDLC are Requirement Engineering, Design, Implementation, Testing, and Maintenance.
+The purpose of creating this game was to become familiar with basic client/server architecture. The result is a 2-player game with network functionality using Python. The source code can be found here.The process of creating this game was both challenging and rewarding.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://tommastromona.co/projects/projects/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/projects/</guid>
+      <description>Golden Hour: Notifications for Upcoming Sunrise and Sunset Conditions Twitter Bot</description>
+    </item>
+    
+  </channel>
+</rss>
