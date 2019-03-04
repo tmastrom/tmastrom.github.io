@@ -17,13 +17,16 @@
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tommastromona.co/projects/battlesnake-2019/</guid>
-      <description>Battlesnake 2019 A simple snake AI written in Python link</description>
+      <description>A simple Battlesnake AI written in Python. This snake was forked from the starter snake repo and deployed to Heroku for the competition. Check out my snake and others at the Battlesnake Arena!
+Here&amp;rsquo;s my snake in a battle. I&amp;rsquo;m the purple one!
+  My Snake In Action
+  This little guy made it to round 2 of the competiton!</description>
     </item>
     
     <item>
-      <title>Traffic Light</title>
+      <title>Real-Time Embedded System Project: Traffic Light System</title>
       <link>https://tommastromona.co/projects/traffic-light/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tommastromona.co/projects/traffic-light/</guid>
       <description>Real-Time Traffic Light System A simulated traffic light system built using FreeRTOS and an STM32 Microcontroller for ECE 455: Real-Time Operating Systems course at UVic. Source Code
@@ -31,16 +34,16 @@ Requirements Build a one-way traffic light system which simulates cars as green 
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://tommastromona.co/projects/projects/</link>
+      <title>Reqcheck: Course Prerequisite Visualization App</title>
+      <link>https://tommastromona.co/projects/reqcheck/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/projects/</guid>
+      <guid>https://tommastromona.co/projects/reqcheck/</guid>
       <description>Reqcheck.tech : A Web Application for Prerequisite Course Visualization Reqcheck.tech You can view the source code on Github</description>
     </item>
     
     <item>
-      <title>Tetris Game</title>
+      <title>Two Player Tetris Using Pygame and Sockets</title>
       <link>https://tommastromona.co/projects/tetris-game/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -50,12 +53,12 @@ The purpose of creating this game was to become familiar with basic client/serve
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://tommastromona.co/projects/projects/</link>
+      <title>Hack UVic Twitter Bot</title>
+      <link>https://tommastromona.co/projects/hack-uvic/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/projects/</guid>
-      <description>Golden Hour: Notifications for Upcoming Sunrise and Sunset Conditions Twitter Bot</description>
+      <guid>https://tommastromona.co/projects/hack-uvic/</guid>
+      <description>Golden Hour: notifications for upcoming sunrise and sunset conditions A simple twitter bot written in Python using the Twitter API and openweathermap API.</description>
     </item>
     
   </channel>
