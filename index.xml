@@ -29,8 +29,8 @@ Here&amp;rsquo;s my snake in a battle. I&amp;rsquo;m the purple one!
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tommastromona.co/projects/traffic-light/</guid>
-      <description>Real-Time Traffic Light System A simulated traffic light system built using FreeRTOS and an STM32 Microcontroller for ECE 455: Real-Time Operating Systems course at UVic. Source Code
-Requirements Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller. The ADC will be connected to a potentiometer.</description>
+      <description>I worked in a team to simulate a traffic light system using FreeRTOS and an STM32 Microcontroller for my Real-Time Operating Systems course at the University of Victoria. Source Code   Traffic System in Action
+  Requirements Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller.</description>
     </item>
     
     <item>

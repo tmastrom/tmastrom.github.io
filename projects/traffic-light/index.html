@@ -11,8 +11,8 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Real-Time Embedded System Project: Traffic Light System"/>
-<meta name="twitter:description" content="Real-Time Traffic Light System A simulated traffic light system built using FreeRTOS and an STM32 Microcontroller for ECE 455: Real-Time Operating Systems course at UVic. Source Code
-Requirements Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller. The ADC will be connected to a potentiometer."/>
+<meta name="twitter:description" content="I worked in a team to simulate a traffic light system using FreeRTOS and an STM32 Microcontroller for my Real-Time Operating Systems course at the University of Victoria. Source Code   Traffic System in Action
+  Requirements Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller."/>
 
 
     <base href="https://tommastromona.co/projects/traffic-light/">
@@ -97,21 +97,18 @@ Requirements Build a one-way traffic light system which simulates cars as green 
 
     
 
-<h1 id="real-time-traffic-light-system">Real-Time Traffic Light System</h1>
-
-<p>A simulated traffic light system built using <strong>FreeRTOS</strong> and an <strong>STM32 Microcontroller</strong> for ECE 455: Real-Time Operating Systems course at UVic. <a href="https://github.com/alexandercote/RTOS_Traffic_Light_System">Source Code</a></p>
-
-<h2 id="requirements">Requirements</h2>
-
-<p>Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller. The ADC will be connected to a potentiometer. The traffic light times will change based on the traffic level. Heavier traffic corresponds to a longer green light and a shorter red light. When the light is green, traffic propagates along the entire length of &lsquo;road&rsquo;. When the light turns yellow and then red, traffic before the stop line stops, traffic after the stop line continues to flow. New traffic will fill in gaps while waiting for the light.</p>
-
+<p>I worked in a team to simulate a traffic light system using <strong>FreeRTOS</strong> and an <strong>STM32 Microcontroller</strong> for my Real-Time Operating Systems course at the University of Victoria. <a href="https://github.com/alexandercote/RTOS_Traffic_Light_System">Source Code</a>
 <figure>
     <img src="https://tommastromona.co/images/rtos/go2.gif"
          alt="Traffic System in Action"/> <figcaption>
             <p>Traffic System in Action</p>
         </figcaption>
 </figure>
+</p>
 
+<h2 id="requirements">Requirements</h2>
+
+<p>Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller. The ADC will be connected to a potentiometer. The traffic light times will change based on the traffic level. Heavier traffic corresponds to a longer green light and a shorter red light. When the light is green, traffic propagates along the entire length of &lsquo;road&rsquo;. When the light turns yellow and then red, traffic before the stop line stops, traffic after the stop line continues to flow. New traffic will fill in gaps while waiting for the light.</p>
 
 <h2 id="implementation">Implementation</h2>
 
