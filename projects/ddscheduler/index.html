@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Thomas Mastromonaco">
+    <meta name="description" content="Thomas&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="FreeRTOS Deadline Driven Scheduler"/>
+<meta name="twitter:description" content="ECE 455: Real-Time Operating System Design Project
+System validation was completed using a toy application utilizing on-board LEDs and and the user button to create aperiodic tasks on the STM32F407G Discovery board
+  Table 1. Test Task Set
+   Task Execution time Relative Deadline LED Colour     Periodic Task 1 95 500 Amber   Periodic Task 2 150 500 Green   Periodic Task 3 250 750 Blue   Aperiodic Task 1 50 200 Red    The implemented deadline driven scheduler on top of the FreeRTOS priority driven scheduler was a success with excellent performance."/>
+
+
+    <base href="https://tommastromona.co/projects/ddscheduler/">
+    <title>
+  FreeRTOS Deadline Driven Scheduler · Home
+</title>
+
+    <link rel="canonical" href="https://tommastromona.co/projects/ddscheduler/">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://tommastromona.co/css/coder.min.ac37073bc2826cd28ef57364a9fe339de7ebcb26dafc22fd832cb35cf5b1d048.css" integrity="sha256-rDcHO8KCbNKO9XNkqf4znefryyba/CL9gyyzXPWx0Eg=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://tommastromona.co/css/coder-inverted.min.b275a7d098cfe39135a5644e9c6d811e77fc4bdeac01e8e339c7d767146340a8.css" integrity="sha256-snWn0JjP45E1pWROnG2BHnf8S96sAejjOcfXZxRjQKg=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://tommastromona.co/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://tommastromona.co/img/favicon-16x16.png" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.53" />
+  </head>
+
+  <body class=" inverted">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://tommastromona.co/">
+      Home
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://tommastromona.co/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://tommastromona.co/projects/">Projects</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://tommastromona.co/resume/">Resume</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://tommastromona.co/volunteering/">Volunteering</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>FreeRTOS Deadline Driven Scheduler</h1>
+    </header>
+
+    <p>ECE 455: Real-Time Operating System Design Project</p>
+
+<p>System validation was completed using a toy application utilizing on-board LEDs and and the user button to create aperiodic tasks on the STM32F407G Discovery board</p>
+
+<figure>
+    <img src="https://tommastromona.co/images/rtos/test1.gif"/> 
+</figure>
+
+
+<p><em>Table 1. Test Task Set</em></p>
+
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th align="center">Execution time</th>
+<th align="right">Relative Deadline</th>
+<th align="right">LED Colour</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Periodic Task 1</td>
+<td align="center">95</td>
+<td align="right">500</td>
+<td align="right">Amber</td>
+</tr>
+
+<tr>
+<td>Periodic Task 2</td>
+<td align="center">150</td>
+<td align="right">500</td>
+<td align="right">Green</td>
+</tr>
+
+<tr>
+<td>Periodic Task 3</td>
+<td align="center">250</td>
+<td align="right">750</td>
+<td align="right">Blue</td>
+</tr>
+
+<tr>
+<td>Aperiodic Task 1</td>
+<td align="center">50</td>
+<td align="right">200</td>
+<td align="right">Red</td>
+</tr>
+</tbody>
+</table>
+
+<p>The implemented deadline driven scheduler on top of the FreeRTOS priority driven scheduler was a success with excellent performance. The scheduler successfully realized EDF (earliest deadline first) dynamic scheduling with very little overhead. Using a 1 kHz Tickrate, the system was able to schedule a task set with a calculated CPU utilization of 100%. This project utilizes many concepts of real-time systems such as the utilization of queues, task notification, memory management and dynamic scheduling algorithms.</p>
+
+  </article>
+</section>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>I want to create helpful technology</p>
+    
+    
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

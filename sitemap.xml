@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tommastromona.co/projects/ddscheduler/</loc>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tommastromona.co/projects/region-growing/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tommastromona.co/projects/battlesnake-2019/</loc>
     <lastmod>2019-03-02T00:00:00+00:00</lastmod>
   </url>
@@ -99,7 +109,7 @@
   
   <url>
     <loc>https://tommastromona.co/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -117,7 +127,7 @@
   
   <url>
     <loc>https://tommastromona.co/projects/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

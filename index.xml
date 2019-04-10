@@ -6,10 +6,35 @@
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tommastromona.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FreeRTOS Deadline Driven Scheduler</title>
+      <link>https://tommastromona.co/projects/ddscheduler/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/ddscheduler/</guid>
+      <description>ECE 455: Real-Time Operating System Design Project
+System validation was completed using a toy application utilizing on-board LEDs and and the user button to create aperiodic tasks on the STM32F407G Discovery board
+  Table 1. Test Task Set
+   Task Execution time Relative Deadline LED Colour     Periodic Task 1 95 500 Amber   Periodic Task 2 150 500 Green   Periodic Task 3 250 750 Blue   Aperiodic Task 1 50 200 Red    The implemented deadline driven scheduler on top of the FreeRTOS priority driven scheduler was a success with excellent performance.</description>
+    </item>
+    
+    <item>
+      <title>Eikonal Based Region Growing for MRI Organ Segmentation </title>
+      <link>https://tommastromona.co/projects/region-growing/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/region-growing/</guid>
+      <description>ECE 435: Medical Image Processing Final Project
+Applying the Eikonal equation to segment organs at risk (OARs) surrounding the prostate when planning prostate radiotherapy using the Gold Atlas - Male Pelvis data set.
+This project takes user input as the seed pixel and proceeds to grow a superpixel region. The figure below illustrates the algorithm working to segment the bladder.
+  Bladder Segmentation
+The basis for this project is &amp;ldquo;Eikonal-Based Region Growing for Efficient Clustering&amp;rdquo; by P.</description>
+    </item>
     
     <item>
       <title>Battlesnake 2019</title>
@@ -17,10 +42,8 @@
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tommastromona.co/projects/battlesnake-2019/</guid>
-      <description>A simple Battlesnake AI written in Python. This snake was forked from the starter snake repo and deployed to Heroku for the competition. Check out my snake and others at the Battlesnake Arena!
-Here&amp;rsquo;s my snake in a battle. I&amp;rsquo;m the purple one!
-  My Snake In Action
-  This little guy made it to round 2 of the competiton!</description>
+      <description>A simple Battlesnake AI written in Python and deployed to Heroku to play in the Battlesnake Arena!
+  </description>
     </item>
     
     <item>
