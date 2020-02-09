@@ -6,10 +6,20 @@
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tommastromona.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gesture Classification of sEMG Signals for Prosthesis Control</title>
+      <link>https://tommastromona.co/projects/gesture-classifier/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommastromona.co/projects/gesture-classifier/</guid>
+      <description>Overview A major hurdle for building effective prostheses is the control interface. Patients will not find the device useful unless they are able to accurately and intuitively control the device. The current industry standard is to capture the muscle signals in the residual limb using surface electromyography (sEMG) electrodes. These signals must be accurately deciphered by the device for the prosthesis to perform the intended action.
+This project attempts to define a supervised machine learning model called a Support Vector Classifier to accurately classify gestures based on sEMG signals.</description>
+    </item>
     
     <item>
       <title>FreeRTOS Deadline Driven Scheduler</title>
@@ -43,7 +53,7 @@ The basis for this project is &amp;ldquo;Eikonal-Based Region Growing for Effici
       
       <guid>https://tommastromona.co/projects/battlesnake-2019/</guid>
       <description>A simple Battlesnake AI written in Python and deployed to Heroku to play in the Battlesnake Arena!
-    </description>
+  </description>
     </item>
     
     <item>
@@ -178,9 +188,8 @@ Follow the following steps:
       <guid>https://tommastromona.co/resume/</guid>
       <description>Education Bachelors of Engineering; The University of Victoria Victoria, BC - 2014-Present
 Studying computer engineering with a biomedical engineering minor. Currently specializing in digital signal processing.
-Experience Software Developer Intern; eSight Eyewear Ottawa, ON - Fall 2019
- Currently building Android applications and services in Java to run on the eSight glasses  Test Engineering Intern; HGST (A Western Digital Company) Prachin Buri, Thailand - Summer 2018
- Worked with the test engineering team to automate hardware debugging using computer vision.</description>
+Experience Wearable Device Developer; J. Giles Ortho Tech &amp;amp; Biomech Lab Victoria, BC - Spring 2020
+ Wrote firmware in C for an ARM target to provide Bluetooth Low Energy (BLE) communication Created a simple and UI for clinicians and patients to record and view their data Authenticated users and stored data using Firebase  Software Engineering Intern; eSight Eyewear Ottawa, ON - Fall 2019</description>
     </item>
     
     <item>
