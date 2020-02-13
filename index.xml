@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>https://tommastromona.co/</link>
+    <link>https://mastromonaco.dev/</link>
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://tommastromona.co/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mastromonaco.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gesture Classification of sEMG Signals for Prosthesis Control</title>
-      <link>https://tommastromona.co/projects/gesture-classifier/</link>
+      <link>https://mastromonaco.dev/projects/gesture-classifier/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/gesture-classifier/</guid>
+      <guid>https://mastromonaco.dev/projects/gesture-classifier/</guid>
       <description>Overview A major hurdle for building effective prostheses is the control interface. Patients will not find the device useful unless they are able to accurately and intuitively control the device. The current industry standard is to capture the muscle signals in the residual limb using surface electromyography (sEMG) electrodes. These signals must be accurately deciphered by the device for the prosthesis to perform the intended action.
 This project attempts to define a supervised machine learning model called a Support Vector Classifier to accurately classify gestures based on sEMG signals.</description>
     </item>
     
     <item>
       <title>FreeRTOS Deadline Driven Scheduler</title>
-      <link>https://tommastromona.co/projects/ddscheduler/</link>
+      <link>https://mastromonaco.dev/projects/ddscheduler/</link>
       <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/ddscheduler/</guid>
+      <guid>https://mastromonaco.dev/projects/ddscheduler/</guid>
       <description>ECE 455: Real-Time Operating System Design Project
 System validation was completed using a toy application utilizing on-board LEDs and and the user button to create aperiodic tasks on the STM32F407G Discovery board
   Table 1. Test Task Set
@@ -35,10 +35,10 @@ System validation was completed using a toy application utilizing on-board LEDs 
     
     <item>
       <title>Eikonal Based Region Growing for MRI Organ Segmentation </title>
-      <link>https://tommastromona.co/projects/region-growing/</link>
+      <link>https://mastromonaco.dev/projects/region-growing/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/region-growing/</guid>
+      <guid>https://mastromonaco.dev/projects/region-growing/</guid>
       <description>ECE 435: Medical Image Processing Final Project
 Applying the Eikonal equation to segment organs at risk (OARs) surrounding the prostate when planning prostate radiotherapy using the Gold Atlas - Male Pelvis data set.
 This project takes user input as the seed pixel and proceeds to grow a superpixel region. The figure below illustrates the algorithm working to segment the bladder.
@@ -48,76 +48,76 @@ The basis for this project is &amp;ldquo;Eikonal-Based Region Growing for Effici
     
     <item>
       <title>Battlesnake 2019</title>
-      <link>https://tommastromona.co/projects/battlesnake-2019/</link>
+      <link>https://mastromonaco.dev/projects/battlesnake-2019/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/battlesnake-2019/</guid>
+      <guid>https://mastromonaco.dev/projects/battlesnake-2019/</guid>
       <description>A simple Battlesnake AI written in Python and deployed to Heroku to play in the Battlesnake Arena!
   </description>
     </item>
     
     <item>
       <title>Real-Time Embedded System Project: Traffic Light System</title>
-      <link>https://tommastromona.co/projects/traffic-light/</link>
+      <link>https://mastromonaco.dev/projects/traffic-light/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/traffic-light/</guid>
+      <guid>https://mastromonaco.dev/projects/traffic-light/</guid>
       <description>I worked in a team to simulate a traffic light system using FreeRTOS and an STM32 Microcontroller for my Real-Time Operating Systems course at the University of Victoria. Source Code   Traffic System in Action
   Requirements Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller.</description>
     </item>
     
     <item>
       <title>Hugo coder wiki</title>
-      <link>https://tommastromona.co/posts/hugo-coder-wiki/</link>
+      <link>https://mastromonaco.dev/posts/hugo-coder-wiki/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/posts/hugo-coder-wiki/</guid>
+      <guid>https://mastromonaco.dev/posts/hugo-coder-wiki/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reqcheck: Course Prerequisite Visualization App</title>
-      <link>https://tommastromona.co/projects/reqcheck/</link>
+      <link>https://mastromonaco.dev/projects/reqcheck/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/reqcheck/</guid>
+      <guid>https://mastromonaco.dev/projects/reqcheck/</guid>
       <description>Reqcheck.tech : A Web Application for Prerequisite Course Visualization Reqcheck.tech You can view the source code on Github</description>
     </item>
     
     <item>
       <title>Dummy</title>
-      <link>https://tommastromona.co/posts/dummy.pl/</link>
+      <link>https://mastromonaco.dev/posts/dummy.pl/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/posts/dummy.pl/</guid>
+      <guid>https://mastromonaco.dev/posts/dummy.pl/</guid>
       <description>w budowie&amp;hellip;</description>
     </item>
     
     <item>
       <title>Two Player Tetris Using Pygame and Sockets</title>
-      <link>https://tommastromona.co/projects/tetris-game/</link>
+      <link>https://mastromonaco.dev/projects/tetris-game/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/tetris-game/</guid>
+      <guid>https://mastromonaco.dev/projects/tetris-game/</guid>
       <description>Introduction The following report will describe the Software Development Lifecycle (SDLC) for 2-Player Tetris built for ECE 356: Engineering System Software. The five main steps in the SDLC are Requirement Engineering, Design, Implementation, Testing, and Maintenance.
 The purpose of creating this game was to become familiar with basic client/server architecture. The result is a 2-player game with network functionality using Python. The source code can be found here.The process of creating this game was both challenging and rewarding.</description>
     </item>
     
     <item>
       <title>Hack UVic Twitter Bot</title>
-      <link>https://tommastromona.co/projects/hack-uvic/</link>
+      <link>https://mastromonaco.dev/projects/hack-uvic/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/hack-uvic/</guid>
+      <guid>https://mastromonaco.dev/projects/hack-uvic/</guid>
       <description>Golden Hour: notifications for upcoming sunrise and sunset conditions A simple twitter bot written in Python using the Twitter API and openweathermap API.</description>
     </item>
     
     <item>
       <title>Theme Demo</title>
-      <link>https://tommastromona.co/posts/theme-demo/</link>
+      <link>https://mastromonaco.dev/posts/theme-demo/</link>
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/posts/theme-demo/</guid>
+      <guid>https://mastromonaco.dev/posts/theme-demo/</guid>
       <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
 This is bold text
 This is italic text
@@ -130,30 +130,30 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://tommastromona.co/posts/creating-a-new-theme/</link>
+      <link>https://mastromonaco.dev/posts/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/posts/creating-a-new-theme/</guid>
+      <guid>https://mastromonaco.dev/posts/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://tommastromona.co/posts/hugo-template-primer/</link>
+      <link>https://mastromonaco.dev/posts/hugo-template-primer/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/posts/hugo-template-primer/</guid>
+      <guid>https://mastromonaco.dev/posts/hugo-template-primer/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://tommastromona.co/posts/hugoisforlovers/</link>
+      <link>https://mastromonaco.dev/posts/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/posts/hugoisforlovers/</guid>
+      <guid>https://mastromonaco.dev/posts/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
@@ -164,28 +164,28 @@ Follow the following steps:
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://tommastromona.co/posts/migrate-from-jekyll/</link>
+      <link>https://mastromonaco.dev/posts/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/posts/migrate-from-jekyll/</guid>
+      <guid>https://mastromonaco.dev/posts/migrate-from-jekyll/</guid>
       <description>Table of Contents  Move static content to static Create your Hugo configuration file Set your configuration publish folder to site Convert Jekyll templates to Hugo templates Convert Jekyll plugins to Hugo shortcodes  Implementation Usage  Finishing Touches  Fix Content Clean Up  A practical example in a diff  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output.</description>
     </item>
     
     <item>
       <title>Thomas Mastromonaco</title>
-      <link>https://tommastromona.co/about/</link>
+      <link>https://mastromonaco.dev/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/about/</guid>
+      <guid>https://mastromonaco.dev/about/</guid>
       <description>I am studying computer engineering with a minor in biomedical engineering at the University of Victoria. Topics I am currently pursuing include image and signal processing and embedded systems. Please check out my Projects page as well as my Github for some examples of my work.</description>
     </item>
     
     <item>
       <title>Thomas Mastromonaco</title>
-      <link>https://tommastromona.co/resume/</link>
+      <link>https://mastromonaco.dev/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/resume/</guid>
+      <guid>https://mastromonaco.dev/resume/</guid>
       <description>Education Bachelors of Engineering; The University of Victoria Victoria, BC - 2014-Present
 Studying computer engineering with a biomedical engineering minor. Currently specializing in digital signal processing.
 Experience Wearable Device Developer; J. Giles Ortho Tech &amp;amp; Biomech Lab Victoria, BC - Spring 2020
@@ -194,10 +194,10 @@ Experience Wearable Device Developer; J. Giles Ortho Tech &amp;amp; Biomech Lab 
     
     <item>
       <title>Volunteering</title>
-      <link>https://tommastromona.co/volunteering/</link>
+      <link>https://mastromonaco.dev/volunteering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/volunteering/</guid>
+      <guid>https://mastromonaco.dev/volunteering/</guid>
       <description> Volunteer Prosthetic Technician; The Range of Motion Project Quito, Ecuador - July 2017
  Assisted prosthetists to build prostheses and fit patients Fabricated and modified sockets with direction from prosthetists  </description>
     </item>

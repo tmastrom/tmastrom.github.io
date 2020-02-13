@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Home</title>
-    <link>https://tommastromona.co/projects/</link>
+    <link>https://mastromonaco.dev/projects/</link>
     <description>Recent content in Projects on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://tommastromona.co/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mastromonaco.dev/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gesture Classification of sEMG Signals for Prosthesis Control</title>
-      <link>https://tommastromona.co/projects/gesture-classifier/</link>
+      <link>https://mastromonaco.dev/projects/gesture-classifier/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/gesture-classifier/</guid>
+      <guid>https://mastromonaco.dev/projects/gesture-classifier/</guid>
       <description>Overview A major hurdle for building effective prostheses is the control interface. Patients will not find the device useful unless they are able to accurately and intuitively control the device. The current industry standard is to capture the muscle signals in the residual limb using surface electromyography (sEMG) electrodes. These signals must be accurately deciphered by the device for the prosthesis to perform the intended action.
 This project attempts to define a supervised machine learning model called a Support Vector Classifier to accurately classify gestures based on sEMG signals.</description>
     </item>
     
     <item>
       <title>FreeRTOS Deadline Driven Scheduler</title>
-      <link>https://tommastromona.co/projects/ddscheduler/</link>
+      <link>https://mastromonaco.dev/projects/ddscheduler/</link>
       <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/ddscheduler/</guid>
+      <guid>https://mastromonaco.dev/projects/ddscheduler/</guid>
       <description>ECE 455: Real-Time Operating System Design Project
 System validation was completed using a toy application utilizing on-board LEDs and and the user button to create aperiodic tasks on the STM32F407G Discovery board
   Table 1. Test Task Set
@@ -35,10 +35,10 @@ System validation was completed using a toy application utilizing on-board LEDs 
     
     <item>
       <title>Eikonal Based Region Growing for MRI Organ Segmentation </title>
-      <link>https://tommastromona.co/projects/region-growing/</link>
+      <link>https://mastromonaco.dev/projects/region-growing/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/region-growing/</guid>
+      <guid>https://mastromonaco.dev/projects/region-growing/</guid>
       <description>ECE 435: Medical Image Processing Final Project
 Applying the Eikonal equation to segment organs at risk (OARs) surrounding the prostate when planning prostate radiotherapy using the Gold Atlas - Male Pelvis data set.
 This project takes user input as the seed pixel and proceeds to grow a superpixel region. The figure below illustrates the algorithm working to segment the bladder.
@@ -48,49 +48,49 @@ The basis for this project is &amp;ldquo;Eikonal-Based Region Growing for Effici
     
     <item>
       <title>Battlesnake 2019</title>
-      <link>https://tommastromona.co/projects/battlesnake-2019/</link>
+      <link>https://mastromonaco.dev/projects/battlesnake-2019/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/battlesnake-2019/</guid>
+      <guid>https://mastromonaco.dev/projects/battlesnake-2019/</guid>
       <description>A simple Battlesnake AI written in Python and deployed to Heroku to play in the Battlesnake Arena!
   </description>
     </item>
     
     <item>
       <title>Real-Time Embedded System Project: Traffic Light System</title>
-      <link>https://tommastromona.co/projects/traffic-light/</link>
+      <link>https://mastromonaco.dev/projects/traffic-light/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/traffic-light/</guid>
+      <guid>https://mastromonaco.dev/projects/traffic-light/</guid>
       <description>I worked in a team to simulate a traffic light system using FreeRTOS and an STM32 Microcontroller for my Real-Time Operating Systems course at the University of Victoria. Source Code   Traffic System in Action
   Requirements Build a one-way traffic light system which simulates cars as green LEDs being lit up sequentially using a shift register IC. The traffic density will be determined by reading the Analog to Digital Converter (ADC) of the microcontroller.</description>
     </item>
     
     <item>
       <title>Reqcheck: Course Prerequisite Visualization App</title>
-      <link>https://tommastromona.co/projects/reqcheck/</link>
+      <link>https://mastromonaco.dev/projects/reqcheck/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/reqcheck/</guid>
+      <guid>https://mastromonaco.dev/projects/reqcheck/</guid>
       <description>Reqcheck.tech : A Web Application for Prerequisite Course Visualization Reqcheck.tech You can view the source code on Github</description>
     </item>
     
     <item>
       <title>Two Player Tetris Using Pygame and Sockets</title>
-      <link>https://tommastromona.co/projects/tetris-game/</link>
+      <link>https://mastromonaco.dev/projects/tetris-game/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/tetris-game/</guid>
+      <guid>https://mastromonaco.dev/projects/tetris-game/</guid>
       <description>Introduction The following report will describe the Software Development Lifecycle (SDLC) for 2-Player Tetris built for ECE 356: Engineering System Software. The five main steps in the SDLC are Requirement Engineering, Design, Implementation, Testing, and Maintenance.
 The purpose of creating this game was to become familiar with basic client/server architecture. The result is a 2-player game with network functionality using Python. The source code can be found here.The process of creating this game was both challenging and rewarding.</description>
     </item>
     
     <item>
       <title>Hack UVic Twitter Bot</title>
-      <link>https://tommastromona.co/projects/hack-uvic/</link>
+      <link>https://mastromonaco.dev/projects/hack-uvic/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://tommastromona.co/projects/hack-uvic/</guid>
+      <guid>https://mastromonaco.dev/projects/hack-uvic/</guid>
       <description>Golden Hour: notifications for upcoming sunrise and sunset conditions A simple twitter bot written in Python using the Twitter API and openweathermap API.</description>
     </item>
     
