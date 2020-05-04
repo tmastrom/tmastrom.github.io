@@ -189,7 +189,7 @@ Follow the following steps:
       <description>Education Bachelors of Computer Engineering; The University of Victoria Victoria, BC - 2014-Present
 Studying computer engineering with a biomedical engineering minor
 Experience Wearable Device Developer; J. Giles Ortho Tech &amp;amp; Biomech Lab Victoria, BC - Spring 2020
- Developed an Android application in Java to receive and display wearable sensor data using Bluetooth Utilized an MVVM design pattern and Viewbinding to build a responsive and robust application Followed Material Design practices to create the UI/UX Authenticated users using Google Firebase Created a NoSQL database using Firebase Firestore to read and write user data Wrote firmware in C for an ARM target to communicate with the Android app using the Bluetooth Low Energy (BLE) protocol  Software Engineering Intern; eSight Eyewear Ottawa, ON - Fall 2019</description>
+ Developed an Android application in Java to receive and display wearable sensor data using Bluetooth Utilized an MVVM design pattern and Viewbinding to build a responsive and robust application Followed Material Design practices to create the UI/UX Authenticated users using Google Firebase Created a NoSQL database using Firebase Firestore to store app data Wrote firmware in C for an ARM target to communicate with the Android app using the Bluetooth Low Energy (BLE) protocol  Software Engineering Intern; eSight Eyewear Ottawa, ON - Fall 2019</description>
     </item>
     
     <item>
