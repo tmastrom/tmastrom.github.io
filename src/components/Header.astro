@@ -1,0 +1,42 @@
+---
+const {currentPage} = Astro.props
+
+const headerMap = [{
+    pageName: "home",
+    route: "/",
+    title: "Home"
+},
+{
+    pageName: "software",
+    route: "/software",
+    title: "Software"
+},
+{
+    pageName: "yoga",
+    route: "/yoga",
+    title: "Yoga"
+},
+]
+---
+
+<div id="header" class="container">
+    <div style="display: flex;
+		flex-direction: row;
+		justify-content: space-between;">
+        {headerMap.map((data) => 
+            <a class="header-link"
+                href={data.route}
+                style={data.pageName === currentPage ? "text-decoration: underline;": "" }>
+                {data.title}
+            </a>
+        )}
+    </div>
+</div>
+
+
+<style>
+    .header-link {
+        text-align: center;
+        margin: 25px 0px;
+    }
+</style>

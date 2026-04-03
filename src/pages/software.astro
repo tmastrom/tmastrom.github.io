@@ -1,0 +1,55 @@
+---
+import Header from '../components/Header.astro';
+import Layout from '../layouts/Layout.astro';
+
+const pageName = "software"
+---
+
+<Layout>
+	<Header currentPage={pageName} />
+	<div class="container" style="margin-top: 10vh;">  
+		<div>
+			<img src="/images/profile.jpg" alt="profile picture" style="margin:auto; max-width: 150px;" />
+			<h1 class="title">Tom Mastromonaco</h1>
+			<p style="text-align: center;">I am a Software Developer with broad experience building, testing, and deploying web applications in startup environments</p>
+		</div>
+		<div style="display: flex;
+			flex-direction: row;
+			justify-content: center;">
+			<a class="social-link"
+				href="https://github.com/tmastrom" 
+				target="_blank" 
+				rel="noreferrer" 
+			>
+				GitHub
+			</a>
+			<a class="social-link"
+				href="https://www.linkedin.com/in/tmastro/" 
+				target="_blank" 
+				rel="noreferrer" 
+			>
+				Linkedin
+			</a>
+			<a class="social-link"
+				href="thomas.mastromonaco@gmail.com" 
+				target="_blank" 
+				rel="noreferrer" 
+				>
+				Email
+			</a>
+		</div>
+	</div>
+</Layout>
+
+
+<style>
+
+
+.title {
+	font-family: 'Satoshi-Black';
+	font-size: 70px;
+	margin: 0;
+	text-align: center;
+}
+</style>
+

@@ -1,0 +1,63 @@
+---
+import Layout from "../layouts/Layout.astro"
+import Header from "../components/Header.astro"
+
+const pageName = "yoga"
+---
+
+<Layout>
+   <Header currentPage={pageName} />
+
+   <section class="hero overlay"/>
+      <div class="container"  >  
+		<div>
+			<h1 class="title">Tom Mastromonaco</h1>
+			<p style="text-align: center;"><b>200 Hour Registered Yoga Teacher</b></p>
+		</div>
+   </div>
+   <section style="display: flex; flex-direction: row; justify-content: center;"> 
+      <div style="max-width: 500px;"> 
+         <h2>About me</h2>
+         <hr/>
+         <p>
+            I focus on offering Hatha Vinyasa Yoga practices with emphasis on linking movement with breath, using props,
+            and providing variations to support students where they are at in their own individual practice. My goal in sharing these teachings is to empower students to tune in to their individual bodies and experience the freedom of movement as well as
+            cultivating alignment between the body and the mind. 
+         </p>
+         <p>
+            I am a 200 hour certified Yoga Teacher and I bring over 10 years of personal yoga experience to my teaching. 
+            I completed the Enriched Yoga Teacher Training program at the Vancouver School of Healing Arts in 2026 
+            where I received diverse trainings in hatha, vinyasa flow, and restorative yoga styles. 
+         </p>
+         <p>
+           Yoga became a big part of my life after feeling the adverse effects of sitting and working full-time at a desk.
+           Through the practice of Yoga I became connected to my own body and empowered to work through and live with imbalances 
+           and injuries from riding bikes, skiing, and playing soccer. 
+         </p>
+
+      </section>
+   </div>
+</Layout>
+
+<style> 
+.title {
+	font-family: 'Satoshi-Black';
+	font-size: 70px;
+	margin: 0;
+	text-align: center;
+}
+
+.hero {
+  background-image: url("/images/waterfall.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-block-size: 30vh;
+
+  border-radius: 10px;
+  margin: 20px;
+
+  place-content: center;
+  text-align: center;
+  resize: both;
+}
+</style>

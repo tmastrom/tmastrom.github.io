@@ -1,0 +1,54 @@
+---
+import Header from '../components/Header.astro';
+import Layout from '../layouts/Layout.astro';
+
+const pageName = 'home'
+
+const headerMap = [
+	{
+		pageName: "software",
+		route: "/software",
+		title: "Software"
+	},
+	{
+		pageName: "yoga",
+		route: "/yoga",
+		title: "Yoga"
+	},
+]
+---
+
+<Layout>
+	<Header currentPage={pageName}/>
+	<div class="container" style="margin-top: 10vh;">  
+		<div>
+			<h1 class="title">Tom Mastromonaco</h1>
+			<p style="text-align: center;"><b>Software Developer</b> and <b>Yoga Teacher</b> currently based in Vancouver, BC</p>
+		</div>
+		<div style="display: flex;
+			flex-direction: row;
+			justify-content: center;">
+			 {headerMap.map((data) => 
+				<a class="header-link"
+					href={data.route}>
+					{data.title}
+				</a>
+        	)}
+		</div>
+	</div>
+</Layout>
+
+
+<style>
+.header-link {
+	text-align: center;
+	margin: 25px;
+}
+
+.title {
+	font-family: 'Satoshi-Black';
+	font-size: 70px;
+	margin: 0;
+	text-align: center;
+}
+</style>
