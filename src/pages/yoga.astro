@@ -1,17 +1,16 @@
 ---
-import Layout from "../layouts/Layout.astro"
-import Header from "../components/Header.astro"
+import { getImage } from "astro:assets";
+import Header from "../components/Header.astro";
+import waterfall from "../images/waterfall.jpg";
+import Layout from "../layouts/Layout.astro";
 
-import { getImage } from "astro:assets"
-import waterfall from "../images/waterfall.jpg"
-
-const pageName = "yoga"
+const pageName = "yoga";
 
 const optimizedBackground = await getImage({
-  src: waterfall,
-  format: 'webp',
-  width: 1920,
-  quality: 80
+	src: waterfall,
+	format: "webp",
+	width: 1920,
+	quality: 80,
 });
 ---
 
