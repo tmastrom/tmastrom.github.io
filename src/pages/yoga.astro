@@ -2,14 +2,23 @@
 import Layout from "../layouts/Layout.astro"
 import Header from "../components/Header.astro"
 
+import { getImage } from "astro:assets"
+import waterfall from "../images/waterfall.jpg"
+
 const pageName = "yoga"
+
+const optimizedBackground = await getImage({
+  src: waterfall,
+  format: 'webp',
+  width: 1920,
+  quality: 80
+});
 ---
 
 <Layout>
    <Header currentPage={pageName} />
-
-   <section class="hero overlay"/>
-      <div class="container"  >  
+   <section class="hero" style={`background-image: url('${optimizedBackground.src}')`}/>
+   <div class="container">  
 		<div>
 			<h1 class="title">Tom Mastromonaco</h1>
 			<p style="text-align: center;"><b>200 Hour Registered Yoga Teacher</b></p>
@@ -34,7 +43,6 @@ const pageName = "yoga"
            Through the practice of Yoga I became connected to my own body and empowered to work through and live with imbalances 
            and injuries from riding bikes, skiing, and playing soccer. 
          </p>
-
       </section>
    </div>
 </Layout>
@@ -42,13 +50,18 @@ const pageName = "yoga"
 <style> 
 .title {
 	font-family: 'Satoshi-Black';
-	font-size: 70px;
 	margin: 0;
 	text-align: center;
+   font-size: 42px;
+}
+
+@media (min-width: 800) {
+   .title {
+      font-size: 70px;
+   }
 }
 
 .hero {
-  background-image: url("/images/waterfall.jpg");
   background-size: cover;
   background-position: center center;
   min-block-size: 30vh;
