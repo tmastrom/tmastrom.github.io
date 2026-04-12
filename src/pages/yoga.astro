@@ -3,6 +3,7 @@ import { getImage } from "astro:assets";
 import Header from "../components/Header.astro";
 import waterfall from "../images/waterfall.jpg";
 import Layout from "../layouts/Layout.astro";
+import '../styles/global.css';
 
 const pageName = "yoga";
 
@@ -48,7 +49,6 @@ const optimizedBackground = await getImage({
 
 <style> 
 .title {
-	font-family: 'Satoshi-Black';
 	margin: 0;
 	text-align: center;
    font-size: 42px;

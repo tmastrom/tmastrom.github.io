@@ -1,6 +1,5 @@
 * {
-	padding: 0;
-	box-sizing: border-box;
+	background-color: #fefae0
 }
 
 html,
@@ -8,7 +7,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family:
-		Satoshi,
+		var(--font-satoshi),
 		-apple-system,
 		BlinkMacSystemFont,
 		Segoe UI,
@@ -22,7 +21,6 @@ body {
 		sans-serif;
 	line-height: 1.6;
 	font-size: 18px;
-	background-color: #fefae0 !important;
 	color: #283618;
 }
 
@@ -35,9 +33,16 @@ a:hover {
 	text-decoration: underline;
 }
 
-img {
-	max-width: 100%;
-	display: block;
+.title {
+	font-weight: 900;
+	font-size: 70px;
+	margin: 0;
+	text-align: center;
+}
+
+.container {
+	margin: auto;
+	max-width: 40em;
 }
 
 /* nav styles */
@@ -76,28 +81,4 @@ img {
 		display: inline-block;
 		padding: 15px 20px;
 	}
-}
-
-@font-face {
-	font-family: "Satoshi-Black";
-	src: url("/fonts/Satoshi-Black.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Satoshi";
-	src: url("/fonts/Satoshi-Regular.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Satoshi-Light";
-	src: url("/fonts/Satoshi-Light.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
 }

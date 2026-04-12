@@ -1,8 +1,23 @@
 // @ts-check
-import { defineConfig } from "astro/config";
+import { defineConfig, fontProviders } from "astro/config";
 
-// https://astro.build/config
 export default defineConfig({
 	site: "https://tmastrom.github.io",
 	base: "/",
+	fonts: [
+		{
+			provider: fontProviders.local(),
+			name: "Satoshi",
+			cssVariable: "--font-satoshi",
+			options: {
+				variants: [
+					{
+						src: ["./src/assets/fonts/Satoshi-Variable.woff2"],
+						weight: "100 900",
+						style: "normal",
+					},
+				],
+			},
+		},
+	],
 });

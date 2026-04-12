@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Layout from "../layouts/Layout.astro";
+import '../styles/global.css';
 
 const pageName = "home";
 
@@ -40,15 +41,13 @@ const headerMap = [
 
 
 <style>
+.container {
+	margin: auto;
+	max-width: 40em;
+}
+
 .header-link {
 	text-align: center;
 	margin: 25px;
-}
-
-.title {
-	font-family: 'Satoshi-Black';
-	font-size: 70px;
-	margin: 0;
-	text-align: center;
 }
 </style>
