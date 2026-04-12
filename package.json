@@ -1,20 +1,20 @@
 {
-	"name": "my-website",
-	"type": "module",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro",
-		"lint": "biome lint --write .",
-		"lint:fix": "biome check --write ."
-	},
 	"dependencies": {
 		"astro": "6.0.3",
 		"sharp": "0.34.5"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.4.10"
-	}
+	},
+	"name": "my-website",
+	"scripts": {
+		"astro": "astro",
+		"build": "astro build",
+		"check": "biome check --write .",
+		"dev": "astro dev",
+		"lint": "biome lint --write .",
+		"preview": "astro preview"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
