@@ -1,5 +1,5 @@
 * {
-	background-color: #fefae0
+	background-color: #fefae0;
 }
 
 html,
@@ -43,6 +43,11 @@ a:hover {
 .container {
 	margin: auto;
 	max-width: 40em;
+}
+
+.header-link {
+	text-align: center;
+	margin: 25px;
 }
 
 /* nav styles */
