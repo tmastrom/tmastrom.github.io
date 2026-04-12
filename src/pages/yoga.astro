@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import waterfall from "../images/waterfall.jpg";
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
+import { fade } from "astro:transitions";
 
 const pageName = "yoga";
 
@@ -17,8 +18,8 @@ const optimizedBackground = await getImage({
 
 <Layout>
    <Header currentPage={pageName} />
-   <section class="hero" style={`background-image: url('${optimizedBackground.src}')`}/>
-   <div class="container">  
+   <section transition:animate={fade({ duration: "0.4s" })} class="hero" style={`background-image: url('${optimizedBackground.src}')`}/>
+   <div class="container" transition:animate={fade({ duration: "0.4s" })}>  
 		<div>
 			<h1 class="title">Tom Mastromonaco</h1>
 			<p style="text-align: center;"><b>200 Hour Registered Yoga Teacher</b></p>

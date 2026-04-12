@@ -2,6 +2,7 @@
 import Header from "../components/Header.astro";
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
+import { fade } from "astro:transitions";
 
 const pageName = "home";
 
@@ -21,7 +22,7 @@ const headerMap = [
 
 <Layout>
 	<Header currentPage={pageName}/>
-	<div class="container" style="margin-top: 10vh;">  
+	<div class="container" transition:animate={fade({ duration: "0.4s" })} style="margin-top: 10vh;">  
 		<div>
 			<h1 class="title">Tom Mastromonaco</h1>
 			<p style="text-align: center;"><b>Software Developer</b> and <b>Yoga Teacher</b> currently based in Vancouver, BC</p>

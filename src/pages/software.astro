@@ -4,13 +4,14 @@ import Header from "../components/Header.astro";
 import profile from "../images/profile.jpg";
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
+import { fade } from "astro:transitions";
 
 const pageName = "software";
 ---
 
 <Layout>
 	<Header currentPage={pageName} />
-	<div class="container" style="margin-top: 10vh;">  
+	<div class="container" transition:animate={fade({ duration: "0.4s" })} style="margin-top: 10vh;">  
 		<div>
 			<div class="image-container">
 			<Image src={profile} alt="charicature" width="150"/>
@@ -36,7 +37,7 @@ const pageName = "software";
 				Linkedin
 			</a>
 			<a class="social-link"
-				href="thomas.mastromonaco@gmail.com" 
+				href="mailto:thomas.mastromonaco@gmail.com" 
 				target="_blank" 
 				rel="noreferrer" 
 				>
