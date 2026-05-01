@@ -21,11 +21,12 @@ const headerMap = [
 ---
 
 <Layout>
+	<div class="layout-wrapper">
 	<Header currentPage={pageName}/>
 	<div class="container" transition:animate={fade({ duration: "0.4s" })} style="margin-top: 10vh;">  
 		<div>
 			<h1 class="title">Tom Mastromonaco</h1>
-			<p style="text-align: center;"><b>Software Developer</b> and <b>Yoga Teacher</b> currently based in Vancouver, BC</p>
+			<p style="text-align: center;">Software Engineer and Yoga Teacher currently based in Vancouver, BC</p>
 		</div>
 		<div style="display: flex;
 			flex-direction: row;
@@ -39,5 +40,6 @@ const headerMap = [
 		</div>
 	</div>
 </Layout>
+
 
 

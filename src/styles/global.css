@@ -1,31 +1,237 @@
-* {
-	background-color: #fefae0;
+:root {
+	/* Colour Palette */
+	--primary: #283618;
+	--primary-contrast: #283618;
+	--primary-invert: #fefae0;
+	--secondary: #fefae0;
+	--secondary-light: #94a3b8;
+	--success: #10b981;
+	--success-light: #34d399;
+	--danger: #ef4444;
+	--danger-light: #f87171;
+	--warning: #f59e0b;
+	--warning-light: #fbbf24;
+	--info: #0ea5e9;
+	--info-light: #38bdf8;
+	--light: #f8fafc;
+	--dark: #283618;
+	--body-bg: #fefae0;
+	--body-color: #283618;
+	--heading-color: #283618;
+	--link-color: #1d72fc;
+	--link-hover-color: #0b65ff;
+	--border-color: #e2e8f0;
+	--shadow-color: rgba(0, 0, 0, 0.1);
+	--card-bg: #ced7db;
+	--progress-color: #60ed7c;
+	--input-icon-color: #64748b;
+
+	/* Gradients */
+	--gradient-primary: linear-gradient(
+		135deg,
+		var(--primary) 0%,
+		var(--primary-contrast) 100%
+	);
+	--gradient-link: linear-gradient(
+		135deg,
+		var(--link-color) 0%,
+		var(--link-hover-color) 100%
+	);
+	--gradient-secondary: linear-gradient(
+		135deg,
+		var(--secondary) 0%,
+		var(--secondary-light) 100%
+	);
+	--gradient-success: linear-gradient(
+		135deg,
+		var(--success) 0%,
+		var(--success-light) 100%
+	);
+	--gradient-danger: linear-gradient(
+		135deg,
+		var(--danger) 0%,
+		var(--danger-light) 100%
+	);
+	--gradient-warning: linear-gradient(
+		135deg,
+		var(--warning) 0%,
+		var(--warning-light) 100%
+	);
+	--gradient-info: linear-gradient(
+		135deg,
+		var(--info) 0%,
+		var(--info-light) 100%
+	);
+
+	/* Shadows */
+	--shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	--shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	--shadow-md:
+		0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	--shadow-lg:
+		0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+	/* Typography */
+	--font-family-sans:
+		var(--font-satoshi), "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	--font-family-mono:
+		ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+		"Courier New", monospace;
+	--font-size-base: 1rem;
+	--line-height-base: 1.6;
+	--font-weight-normal: 400;
+	--font-weight-medium: 500;
+	--font-weight-bold: 700;
+
+	/* Spacing */
+	--spacing-base: 1rem;
+	--spacing-base-half: 0.5rem;
+	--border-radius-sm: 0.25rem;
+	--border-radius: 0.5rem;
+	--border-radius-md: 0.75rem;
+	--border-radius-lg: 1rem;
+	--border-radius-xl: 1.5rem;
+	--border-radius-full: 9999px;
+	--container-max-width: 1200px;
+	--input-padding-factor: 0.75;
+
+	/* Animation */
+	--transition-base: all 0.2s ease-in-out;
+	--transition-slow: all 0.3s ease-in-out;
+
+	/* Color scheme */
+	color-scheme: light;
+	--color-mode: "light";
+
+	/* Theme Slider */
+	--theme-slider-initial-transform: translate(0%, -50%);
 }
 
-html,
-body {
-	padding: 0;
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-mode: "dark";
+	}
+}
+
+:root[color-scheme="dark"] {
+	--primary: #fefae0;
+	--primary-contrast: #fefae0;
+	--primary-invert: #283618;
+	--body-bg: #283618;
+	--body-color: #fefae0;
+	--heading-color: #fefae0;
+	--border-color: #334155;
+	--shadow-color: rgba(0, 0, 0, 0.3);
+	--card-bg: #1e293b;
+	--link-color: #61aeff;
+	--progress-color: #2f9e45;
+	--input-icon-color: #e2e8f0;
+	--shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	--shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+	--shadow-md:
+		0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+	--shadow-lg:
+		0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+
+	/* Theme Slider */
+	--theme-slider-initial-transform: translate(0, -50%);
+}
+
+/* Base styles */
+* {
 	margin: 0;
-	font-family:
-		var(--font-satoshi),
-		-apple-system,
-		BlinkMacSystemFont,
-		Segoe UI,
-		Roboto,
-		Oxygen,
-		Ubuntu,
-		Cantarell,
-		Fira Sans,
-		Droid Sans,
-		Helvetica Neue,
-		sans-serif;
-	line-height: 1.6;
-	font-size: 18px;
-	color: #283618;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-family-sans);
+	font-size: var(--font-size-base);
+	line-height: var(--line-height-base);
+	color: var(--body-color);
+	background-color: var(--body-bg);
+	/* padding: var(--spacing-base); */
+	max-width: var(--container-max-width);
+	margin: 0 auto;
+	transition: var(--transition-slow);
+	animation: colorSchemeTransition 0.5s ease-out;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--heading-color);
+	margin-bottom: var(--spacing-base);
+	font-weight: var(--font-weight-bold);
+	line-height: 1.2;
+	letter-spacing: -0.025em;
+	text-wrap: balance;
+}
+
+h1 {
+	font-size: 2.75rem;
+	margin-top: 2rem;
+}
+
+h2 {
+	font-size: 2.25rem;
+	margin-top: 1.75rem;
+	position: relative;
+}
+
+h2:after {
+	content: "";
+	position: absolute;
+	bottom: -0.5rem;
+	left: 0;
+	width: 3rem;
+	height: 0.15rem;
+	background: var(--primary-contrast);
+	border-radius: var(--border-radius-full);
+}
+
+h3 {
+	font-size: 1.75rem;
+	margin-top: 1.5rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+	margin-top: 1.25rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+	margin-top: 1rem;
+}
+
+h6 {
+	font-size: 1rem;
+	margin-top: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+p {
+	margin-top: var(--spacing-base-half);
+	margin-bottom: var(--spacing-base);
 }
 
 a {
-	color: #283618;
+	color: var(--body-color);
 	text-decoration: none;
 }
 
@@ -48,42 +254,4 @@ a:hover {
 .header-link {
 	text-align: center;
 	margin: 25px;
-}
-
-/* nav styles */
-.nav-links {
-	width: 100%;
-	display: none;
-	margin: 0;
-}
-
-.nav-links a {
-	display: block;
-	text-align: center;
-	padding: 10px 0;
-	text-decoration: none;
-	font-size: 1.2rem;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #0d0950;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-	background-color: #ff9776;
-}
-
-@media screen and (min-width: 636px) {
-	.nav-links {
-		margin-left: 5em;
-		display: block;
-		position: static;
-		width: auto;
-		background: none;
-	}
-
-	.nav-links a {
-		display: inline-block;
-		padding: 15px 20px;
-	}
 }

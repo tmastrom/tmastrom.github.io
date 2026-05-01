@@ -1,0 +1,75 @@
+---
+---
+<div class="toggle-container">
+    <label for="theme-toggle">Light</label>
+    <input type="checkbox" role="switch" id="theme-toggle" onclick="toggleScheme()"/>
+    <label for="theme-toggle">Dark</label>
+</div>
+
+<style>
+
+input:where([type="checkbox"][role="switch"]) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  font-size: inherit;
+  width: 2em;
+  height: 1em;
+  box-sizing: content-box;
+  border: 1px solid;
+  border-radius: 1em;
+  vertical-align: text-bottom;
+  margin: auto;
+  color: inherit;
+
+}
+
+input:where([type="checkbox"][role="switch"]):active {
+  opacity: 0.6;
+}
+
+input:where([type="checkbox"][role="switch"])::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: var(--theme-slider-initial-transform); 
+  box-sizing: border-box;
+  width: 0.7em;
+  height: 0.7em;
+  margin: 0 0.15em;
+  border: 1px solid;
+  border-radius: 50%;
+  background: currentcolor;
+}
+
+input:where([type="checkbox"][role="switch"]):checked::before {
+  left: 1em;
+}
+
+</style>
+
+<script is:inline>
+const getColourScheme = () => {
+    const scheme = localStorage.getItem('color-scheme')
+    if (scheme) return scheme 
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+const setColourScheme = (scheme) => {
+    document.documentElement.setAttribute('color-scheme', scheme)
+    localStorage.setItem('color-scheme', scheme)
+}
+
+const toggleScheme = () => {
+    setColourScheme(getColourScheme() === 'dark' ? 'light' : 'dark')
+    themeSwitch.style.color = '#FFFFFF'
+}
+
+const apply = () => setColourScheme(getColourScheme())
+apply()
+
+// fetch the theme and apply it before the content is painted to avoid the flash
+document.addEventListener('astro:after-swap', apply)
+</script>

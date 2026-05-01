@@ -19,16 +19,18 @@ const optimizedBackground = await getImage({
 <Layout>
    <Header currentPage={pageName} />
    <section transition:animate={fade({ duration: "0.4s" })} class="hero" style={`background-image: url('${optimizedBackground.src}')`}/>
-   <div class="container" transition:animate={fade({ duration: "0.4s" })}>  
+   <div class="container" style="margin-top: 20px; max-width: 500px;" transition:animate={fade({ duration: "0.4s" })}>  
 		<div>
 			<h1 class="title">Tom Mastromonaco</h1>
 			<p style="text-align: center;"><b>200 Hour Registered Yoga Teacher</b></p>
+         <p style="text-align: center;"> My Goal is to help people experience freedom through movement 
+            and feel alignment in their body and mind through the practice of Yoga </p>
 		</div>
    </div>
-   <section style="display: flex; flex-direction: row; justify-content: center;"> 
+   <section style="display: flex; flex-direction: row; justify-content: center; padding-bottom: 50px;"> 
       <div style="max-width: 500px;"> 
          <h2>About me</h2>
-         <hr/>
+
          <p>
             I focus on offering Hatha Vinyasa Yoga practices with emphasis on linking movement with breath, using props,
             and providing variations to support students where they are at in their own individual practice. My goal in sharing these teachings is to empower students to tune in to their individual bodies and experience the freedom of movement as well as
@@ -41,8 +43,7 @@ const optimizedBackground = await getImage({
          </p>
          <p>
            Yoga became a big part of my life after feeling the adverse effects of sitting and working full-time at a desk.
-           Through the practice of Yoga I became connected to my own body and empowered to work through and live with imbalances 
-           and injuries from riding bikes, skiing, and playing soccer. 
+           Practicing Yoga helps me move freely and continue to enjoy riding bikes, skiing, and playing soccer. 
          </p>
       </section>
    </div>
@@ -65,10 +66,6 @@ const optimizedBackground = await getImage({
   background-size: cover;
   background-position: center center;
   min-block-size: 30vh;
-
-  border-radius: 10px;
-  margin: 20px;
-
   place-content: center;
   text-align: center;
   resize: both;

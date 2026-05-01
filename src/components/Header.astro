@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import ThemeToggle from "./ThemeToggle.astro";
 
 const { currentPage } = Astro.props;
 
@@ -22,8 +23,11 @@ const headerMap = [
 ];
 ---
 
-<div id="header" class="container">
+<div id="header" class="container header">
     <div style="display: flex;
+		flex-direction: row;
+		justify-content: space-between;">
+		<div style="display: flex;
 		flex-direction: row;
 		justify-content: space-between;">
         {headerMap.map((data) => 
@@ -33,6 +37,21 @@ const headerMap = [
                 {data.title}
             </a>
         )}
+		</div>
+		<div class="header-link">
+			<ThemeToggle/>
+		</div>
     </div>
+
 </div>
+
+<style>
+
+.header {
+	  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+</style>
+
 
