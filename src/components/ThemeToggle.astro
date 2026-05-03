@@ -21,8 +21,7 @@ input:where([type="checkbox"][role="switch"]) {
   border-radius: 1em;
   vertical-align: text-bottom;
   margin: auto;
-  color: inherit;
-
+  color: var(--primary-contrast);
 }
 
 input:where([type="checkbox"][role="switch"]):active {
@@ -34,7 +33,7 @@ input:where([type="checkbox"][role="switch"])::before {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: var(--theme-slider-initial-transform); 
+  transform: translate(0%, -50%);
   box-sizing: border-box;
   width: 0.7em;
   height: 0.7em;
@@ -47,7 +46,6 @@ input:where([type="checkbox"][role="switch"])::before {
 input:where([type="checkbox"][role="switch"]):checked::before {
   left: 1em;
 }
-
 </style>
 
 <script is:inline>
@@ -59,12 +57,13 @@ const getColourScheme = () => {
 
 const setColourScheme = (scheme) => {
     document.documentElement.setAttribute('color-scheme', scheme)
+    const toggle = document.getElementById('theme-toggle') 
+    scheme === 'dark' ? toggle.checked = true : toggle.checked = false
     localStorage.setItem('color-scheme', scheme)
 }
 
 const toggleScheme = () => {
     setColourScheme(getColourScheme() === 'dark' ? 'light' : 'dark')
-    themeSwitch.style.color = '#FFFFFF'
 }
 
 const apply = () => setColourScheme(getColourScheme())
