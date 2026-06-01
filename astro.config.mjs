@@ -18,5 +18,5 @@ export default defineConfig({
 			provider: fontProviders.local()
 		}
 	],
-	site: "https://mastromonaco.dev"
+	site: "https://tmastrom.github.io"
 });
