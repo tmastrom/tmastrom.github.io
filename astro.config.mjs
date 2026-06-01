@@ -2,7 +2,6 @@
 import { defineConfig, fontProviders } from "astro/config";
 
 export default defineConfig({
-	base: "/",
 	fonts: [
 		{
 			cssVariable: "--font-satoshi",
@@ -19,5 +18,5 @@ export default defineConfig({
 			provider: fontProviders.local()
 		}
 	],
-	site: "https://tmastrom.github.io"
+	site: "https://mastromonaco.dev"
 });
