@@ -236,14 +236,14 @@ a:hover {
 .title {
 	margin: 0;
 	text-align: center;
-    font-size: 42px;
+	font-size: 42px;
 	font-weight: 900;
 }
 
 @media (min-width: 800) {
-   .title {
-      font-size: 70px;
-   }
+	.title {
+		font-size: 70px;
+	}
 }
 
 .container {
