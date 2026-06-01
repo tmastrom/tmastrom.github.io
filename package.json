@@ -7,6 +7,7 @@
 		"@biomejs/biome": "2.4.10"
 	},
 	"name": "my-website",
+	"packageManager": "pnpm@11.5.0+sha512.dbfcc4f81cf48597afd4bc391ffdf12c11f1a9fb83a395bfa6b0a2d9cc2fd8ffebafdb1ccbd529632153f793904c2615b7f09fe1a345473fd1c35845172a8eb1",
 	"scripts": {
 		"astro": "astro",
 		"build": "astro build",
@@ -16,6 +17,5 @@
 		"preview": "astro preview"
 	},
 	"type": "module",
-	"version": "0.0.1",
-	"packageManager": "pnpm@11.5.0+sha512.dbfcc4f81cf48597afd4bc391ffdf12c11f1a9fb83a395bfa6b0a2d9cc2fd8ffebafdb1ccbd529632153f793904c2615b7f09fe1a345473fd1c35845172a8eb1"
+	"version": "0.0.1"
 }
