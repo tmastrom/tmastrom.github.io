@@ -1,0 +1,5 @@
+nodeVersion: "24.6.0"
+saveExact: true
+allowBuilds:
+  esbuild: true
+  sharp: true
